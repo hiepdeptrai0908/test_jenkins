@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="style.css">
+
+
+<h1 class="name">My name is hiep</h1>
+
+<button class="change-btn">Change Color</button>
+<script>
+
+var nameElement=document.querySelector(".name")
+var changeBtn = document.querySelector(".change-btn")
+changeBtn.onclick = function(){
+	if(nameElement.style.color==="black"){
+	
+		nameElement.style.color="blue"
+	}else{
+	
+		nameElement.style.color="black"
+	}
+}
+
+
+
+</script>
